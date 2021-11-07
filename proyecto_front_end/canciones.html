@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300&display=swap" rel="stylesheet"> 
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Oye Music ~ Proyecto Local</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark border rounded navbar-light">
+      <div class="container-fluid ">
+        <header>
+        <a class="navbar-brand fuente_google" id="texto_logo" href="index.html"><img src="./imagenes/logo.png" alt="" class="mr-3 mb-1 logo_img">OYE</a>
+        </header>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#barra"
+          aria-controls="barra"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="barra">
+          <ul class="navbar-nav mr-auto ml-auto">
+            <li class="nav-item">
+              <a class="nav-link fuente_google" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link fuente_google active" href="canciones.html">Canciones</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="btn btn-primary mr-2 my-1" href="#" onclick="contacto()">Contacto</a>
+              <div class="modal" tabindex="-1" role="dialog" id="modal_contacto">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+        
+                    <div class="modal-header">
+                      <h5 class="modal-title modal-bold">Contacto</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+        
+                    <div class="modal-body">
+                      <p>Jesus.rios@oye.com</p>
+                      <p class="text-blue">+57 3103473436</p>
+                    </div>
+        
+                    <div class="modal-footer">
+                      <button type="button" class="boton_none" data-dismiss="modal"><img src="./imagenes/close.ico" alt="" class="img_close"></button>
+                    </div>
+        
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a name="" id="btn_inicio_sesion" class="btn btn-primary mr-2 my-1" href="login.html" role="button">Inicio de Sesión</a>
+            </li>
+            <li class="nav-item">
+              <a name="" id="btn_registro" class="btn btn-primary mr-2 my-1" href="registro.html" role="button">Registro</a>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+            <div class="py-5 container-fluid bg-light  text-dark border rounded">
+                        <div class="col mx-auto">
+                            <div class="container">
+                                
+                                    <div class="col-12">
+                                        <p class="fuente_google">Canciones</p>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <input id="buscar" class="form-control" type="text" name="buscar" onkeyup="buscar()" placeholder="Buscar...">
+                                        </div>
+                                    </div>
+                                    <div class="row" id="row_canciones">
+
+                                    </div>
+                            </div>
+                          </div> 
+            </div>
+                
+          </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid py-1 bg-dark text-white">
+      <div class="row">
+        <div class="col col-md d-none d-sm-block">
+            Comparte la musica
+          </div>
+        <div class="col col-md text-right d-none d-sm-block">
+          © Derechos reservados
+        </div>
+        <div class="col col-md text-center d-block d-sm-none d-md-none">
+          © Derechos reservados
+        </div>
+        
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/canciones.js"></script>
+    <script src="./js/contacto.js"></script>
+  </body>
+</html>

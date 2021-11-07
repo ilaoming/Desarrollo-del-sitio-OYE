@@ -1,0 +1,76 @@
+{
+	"canciones": [
+		{
+			"nombre": "vida de rico",
+			"ruta": "vidaderico.mp3",
+			"reproducciones": 2220,
+			"icono": 4
+		},
+		{
+			"nombre": "auto fantastico",
+			"ruta": "autofantastico.mp3",
+			"reproducciones": 550,
+			"icono": 5
+		},
+		{
+			"nombre": "jerusalema",
+			"ruta": "jerusalema.mp3",
+			"reproducciones": 5000,
+			"icono": 3
+		},
+		{
+			"nombre": "homero 2020",
+			"ruta": "homero2020.mp3",
+			"reproducciones": 7000,
+			"icono": 2
+		},
+		{
+			"nombre": "homero dinero",
+			"ruta": "homero-dinero.mp3",
+			"reproducciones": 9000,
+			"icono": 4
+		},
+		{
+			"nombre": "homero el coco",
+			"ruta": "homeroelcoco.mp3",
+			"reproducciones": 70,
+			"icono": 1
+		},
+		{
+			"nombre": "homero renuncio",
+			"ruta": "homero-renuncio.mp3",
+			"reproducciones": 60,
+			"icono": 5
+		},
+		{
+			"nombre": "farruko pepas",
+			"ruta": "Farruko-Pepas.mp3",
+			"reproducciones": 90,
+			"icono": 3
+		},
+		{
+			"nombre": "te bote remix",
+			"ruta": "Te-Bote-Remix.mp3",
+			"reproducciones": 40,
+			"icono": 4
+		},
+		{
+			"nombre": "taratitatutututu",
+			"ruta": "Taratitatutututu.mp3",
+			"reproducciones": 25,
+			"icono": 2
+		},
+		{
+			"nombre": "somewhere over",
+			"ruta": "somewhere.mp3",
+			"reproducciones": 12,
+			"icono": 1
+		},
+		{
+			"nombre": "me gustas tu",
+			"ruta": "megustastu.mp3",
+			"reproducciones": 1200,
+			"icono": 3
+		}
+	]
+}
